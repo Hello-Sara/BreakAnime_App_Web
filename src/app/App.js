@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from '../pages/HomePage/HomePage';
+import HomePage from '../pages/homePage/HomePage';
+import Register from '../pages/register/Register';
 
 function App() {
  
@@ -10,7 +11,8 @@ function App() {
             {/* Autres */}
             <Route path='/' element={<HomePage />} />
             {/* <Route path='/tarifs' element={<Tarifs />} /> */}
-
+            <Route path='/register' element={<Register />} /> {/* Ajoutez cette ligne */}
+            {/* <Route path='/tarifs' element={<Tarifs />} /> */}
           </Routes>
           {/* <Footer /> */}
         </Router>

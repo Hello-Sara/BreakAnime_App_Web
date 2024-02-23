@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url('../../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nuku';
+    src: url('../../assets/fonts/nuku1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Buttons */
+.call-to-action-button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 12px;
+    height: 50px;
+  
+    /* Coleur principal */
+    background: #FEC200;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+  
+    /* Box sizing */
+    box-sizing: border-box;
+
+    /* CSS pour le texte */
+    color: #0B0B0B; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    font-family: 'Montserrat Bold', sans-serif; /* Police */
+  }

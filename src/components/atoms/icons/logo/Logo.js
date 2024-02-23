@@ -1,12 +1,11 @@
 import React from 'react';
-import { ReactComponent as Icon } from '../../../../assets/logos/logoVNoir.svg';
+import { ReactComponent as Icon } from '../../../../assets/logos/logo_VBlanc.svg';
 
-function Logo({ width = '200px', color = '', className = '', onClick }) {
+function Logo({ width = '169px', height = '64px', color = '', className = '', onClick }) {
   return (
     <Icon
-      style={{ '--color': color, 'fill': color, 'cursor': onClick ? 'pointer' : 'auto' }}
+      style={{ '--color': color, 'fill': color, 'cursor': 'pointer' }}
       width={width}
-      height={width}
       className={className + (onClick ? ' clickable-icon' : '')}
       onClick={onClick}
     />

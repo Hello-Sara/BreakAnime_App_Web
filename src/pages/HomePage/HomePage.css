@@ -1,0 +1,129 @@
+/* Export des fonts */
+@font-face {
+    font-family: 'Montserrat SemiBold';
+    src: url('../../assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600; /* SemiBold */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Bold';
+    src: url('../../assets/fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700; /* Bold */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Medium';
+    src: url('../../assets/fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+}
+  
+  @font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../../assets/fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400; /* Regular */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nuku';
+    src: url('../../assets/fonts/nuku1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Buttons */
+.call-to-action-button {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 28px;
+    gap: 12px;
+    height: 50px;
+    cursor: pointer;
+  
+    /* Coleur principal */
+    background: #FEC200;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+  
+    /* Box sizing */
+    box-sizing: border-box;
+
+    /* CSS pour le texte */
+    color: #0B0B0B; /* Couleur du texte */
+    font-size: 18px; /* Taille de la police */
+    font-family: 'Montserrat Bold', sans-serif; /* Police */
+  }
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Aligne verticalement les éléments à l'intérieur */
+    gap: 32px; /* Ajoute un espace de 32px entre les éléments */
+}
+
+.connect-link {
+    color: #FEC200;
+    font-family: 'Montserrat SemiBold', sans-serif;
+    font-size: 18px;
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.inscrire-link {
+    text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: white; /* Change la couleur du texte en blanc */
+    font-family: 'Montserrat SemiBold', sans-serif; /* Change la police du texte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    margin-right: 32px; /* Ajoute une marge de 32px à droite */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px; /* Ajoute un padding de 16px à droite et à gauche */
+    width: 241px;
+    height: 49px;
+    box-sizing: border-box;
+    border: 1px solid #F2A007;
+    border-radius: 30px;
+    opacity: 0.75;
+}
+
+.search-input {
+    color: #FFFFFF; /* Couleur du texte */
+    background-color: transparent; /* Couleur de fond de la zone de texte */
+    font-family: 'Montserrat Medium', sans-serif;
+    font-size: 12px;
+    border: none; /* Supprime la bordure par défaut de l'input */
+}
+
+.search-icon {
+    margin-right: 50px; /* Ajoute une marge de 16px à droite */
+}
+
+
+
+
+body {
+    background-color: #0B0B0B;
+}

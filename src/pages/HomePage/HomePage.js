@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import Add from '../../components/atoms/icons/global/add/Add';
-import Logo from '../../components/atoms/icons/logo/Logo';
+import React from 'react';
+import Menu from '../../components/molecules/menu/Menu';
 import './HomePage.css';
+import Bouton from '../../components/atoms/bouton/Bouton';
+
 
 // const [products, setProducts] = useState([]);
 
@@ -21,10 +22,8 @@ function HomePage() {
 
     return (
         <>
-
-                <Add width={'30px'}  />
-                <Logo  />
-
+            <Menu />
+            <Bouton name="S'inscrire" />
         </>
     );
 }
